@@ -15,7 +15,7 @@ mkdir Documents/Test #creates a empty directory
 pwd #present working directory
 cd #change directory
 cat >test
- this is a testing file.
+ this is a test file.
 cat > random
  this is a random file.
  
@@ -50,10 +50,48 @@ chmod 777 test   #7	read, write and execute	rwx
 				 #3	write and execute	-wx
 				 #2	write only	-w-
 				 #1	execute only	--x
-			         #0	none	---
+			     #0	none	---
 # 3 modes 
 
 
+Count Lines, Words and Characters using 'wc'
+cat > pokes
+hi this is a test file.
+Just test file
+just have fun
+be good do good
+
+file * #displays all files and directories.
+wc pokes # number of lines, number of words and number of characters.
+
+
+Sorting
+cat > animals
+dog
+pigs
+camel
+horse
+lions
+tiger
+cat > sports
+soccer
+football
+golf
+basket ball
+
+sort animals # sorts in alphabetical order
+sort sports #sorts in alphabetical order
+
+ cuting throught the files.
+cat > players
+Name-sport-age
+roger-tennis-30
+tiger-golf-37
+michael-swimmer-27
+kobe-basketball-34
+
+cut -d "-" -f 1,3 players
+ 
 
 
  
