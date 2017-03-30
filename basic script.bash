@@ -15,7 +15,7 @@ mkdir Documents/Test #creates a empty directory
 pwd #present working directory
 cd #change directory
 cat >test
- this is a test file.
+ this is a testing file.
 cat > random
  this is a random file.
  
@@ -50,7 +50,7 @@ chmod 777 test   #7	read, write and execute	rwx
 				 #3	write and execute	-wx
 				 #2	write only	-w-
 				 #1	execute only	--x
-			     #0	none	---
+			         #0	none	---
 # 3 modes 
 
 
