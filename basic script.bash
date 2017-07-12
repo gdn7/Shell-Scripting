@@ -1,3 +1,5 @@
+
+
 Shell translates information to kernel.
 shell is accessed through terminal.
  
